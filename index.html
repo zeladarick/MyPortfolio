@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ricardo Zelada</title>
+  <meta charset="utf-8"/>
+  <link rel="shortcut icon" type="image/png" href="images/icono.png" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/index.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="menu">
+      <ol>
+      <div class="felxpadre">
+      <div class="flexboxtitle">
+          <p><strong>Ricardo Zelada</strong></p>
+      </div>
+      <div class="flexboxlista">
+        <li>
+          <a href="#Portafolio">Portafolio</a>
+        </li>
+        <li>
+          <a href="#ProyectosPersonales">Proyectos Personales</a>
+        </li>
+        <li>
+          <a href="#Contacto">Contacto</a>
+        </li>
+      </div>
+      </div>
+      </ol>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="flexGeneralHero">
+    <div class="flexTextoHero">
+      <h1>¡Bienvenido!<br/>Me llamo <strong>Ricardo Zelada</strong><br/>
+        Soy desarrollador de <strong>Software</strong>
+      </h1>
+    </div>
+    <div class="flexFotoHero">
+      <figure>
+        <img src="images/otra_cara_circular.png" width="200px" height="200px"/>
+      </figure>
+    </div>
+    </div>
+    <p>Soy una persona apasionada por lo que hace, buscando constantemente nuevos retos en mi profesión, formandome para alcazar mis sueños.</p>
+  </section>
+  <section id="Portafolio" class="portfolio">
+    <h2 class="portfolio_title">Portafolio:</h2>
+    <div class="flexPortafolio">
+    <article class="item">
+      <h3 class="item_title">Página Web Informativa:</h3>
+      <h6 class="item_tech">HTML/CSS/JavaScript</h6>
+      <p class="item_description">Aquí irá el texto descriptivo de mi proyecto,djkvzngdmhugavlsgbvun ghushbugdhiubhguhguidhlbshlzhvi aún no se cómo describirlo, así que rellenaré este espacio
+      con mas o menos lo que quiero ocupar. </p>
+      <figure class="item_image_container">
+        <img src="images/proyecto.png" class="item_image">
+      </figure>
+    </article>
+    <article class="item">
+      <h3 class="item_title">Programas para usos administrativos:</h3>
+      <h6 class="item_tech">Windows Forms (Tecnología .NET)</h6>
+      <p class="item_description">Aquí irá el texto descriptivo de mi proyecto,djkvzngdmhugavlsgbvun ghushbugdhiubhguhguidhlbshlzhvi aún no se cómo describirlo, así que rellenaré este espacio
+      con mas o menos lo que quiero ocupar. </p>
+      <figure class="item_image_container">
+        <img src="images/proyecto.png" class="item_image">
+      </figure>
+    </article>
+    </div>
+  </section>
+  <section id="ProyectosPersonales" class="personal_projects">
+    <h2 class="personal_projects_title">Proyectos Personales:</h2>
+    <div class="flexProyectosPersonales">
+    <article class="project">
+      <h3 class="project_title">Project Villager (Nombre Provicional)</h3>
+      <h6 class="project_tech">Unity Engine</h6>
+      <p class="project_description">Aquí irá el texto descriptivo de mi proyecto, aún no se cómo describirlo, así que rellenaré este espacio
+      con mas o menos lo que quiero ocupar. </p>
+      <figure class="project_image_container">
+        <img src="images/proyecto.png" class="project_image">
+      </figure>
+    </article>
+    </div>
+  </section>
+  <section id="Contacto" class="contact">
+    <div class="flexContacto">
+      <div class="flexContacto_Titulo">
+      <h2>Estemos en contacto:</h2>
+      </div>
+      <div class="flexContacto_Redes">
+      <img src="images/twitterr.png"class="socialitem" onclick="twitter()" onmouseover="irA()" onmouseout="normal()">
+      <img src="images/instagram.png"class="socialitem" onclick="instagram()" onmouseover="irA()" onmouseout="normal()">
+      <img src="images/linkedin.png"class="socialitem" onclick="linkedin()" onmouseover="irA()" onmouseout="normal()">
+      <img src="images/github.jpg"class="socialitem" id="git">
+      </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <p>Hecho por Ricardo Zelada, 2018. Todos los derechos reservados.</p>
+    <p>Agradecimientos especiales a <strong><a href="https://www.instagram.com/heycheves" target="_blank">Andrés Cheves</a></strong> por la fotografía.</p>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
